@@ -1,4 +1,3 @@
-
 import { ArrowDown, Code, Coffee } from 'lucide-react';
 
 const Hero = () => {
@@ -23,13 +22,9 @@ const Hero = () => {
             </div>
           </div>
           
-          <h1 className="text-5xl md:text-7xl font-bold mb-6">
+          <h1 className="text-4xl md:text-6xl font-bold mb-6">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 via-emerald-400 to-green-400">
-              FEDERICO
-            </span>
-            <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 via-emerald-400 to-green-400">
-              MONFASANI
+              FEDERICO MONFASANI
             </span>
           </h1>
           
