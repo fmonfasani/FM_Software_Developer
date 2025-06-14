@@ -9,7 +9,7 @@ const Hero = () => {
   };
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 pt-20">
+    <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 pt-20 font-nunito">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="animate-fade-in">
           <div className="mb-8">
@@ -28,11 +28,11 @@ const Hero = () => {
             </span>
           </h1>
           
-          <p className="text-xl md:text-2xl text-gray-300 mb-2 max-w-3xl mx-auto font-medium tracking-wide">
-            FULL-STACK DEVELOPER
+          <p className="text-xl md:text-2xl text-gray-300 mb-2 max-w-3xl mx-auto font-semibold tracking-wide">
+            SOFTWARE DEVELOPER
           </p>
           
-          <p className="text-lg text-gray-400 mb-12 max-w-3xl mx-auto">
+          <p className="text-lg text-gray-400 mb-12 max-w-3xl mx-auto font-light">
             Desarrollador de Software Full Stack apasionado por crear soluciones digitales innovadoras
             y experiencias de usuario excepcionales.
           </p>
