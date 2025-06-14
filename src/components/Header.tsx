@@ -17,33 +17,39 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
-          <div className="text-2xl font-bold text-gray-900">
-            Federico Monfasani
+          <div className="flex items-center space-x-3">
+            <div className="w-10 h-10 rounded-full bg-gradient-to-br from-blue-600 via-indigo-600 to-purple-600 flex items-center justify-center relative">
+              <div className="text-white font-bold text-sm">FM</div>
+              <div className="absolute -top-1 -right-1 w-3 h-3 bg-yellow-400 rounded-full"></div>
+            </div>
+            <div className="text-xl font-bold text-gray-900">
+              Federico Monfasani
+            </div>
           </div>
           
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
             <button 
               onClick={() => scrollToSection('home')}
-              className="text-gray-700 hover:text-blue-600 transition-colors"
+              className="text-gray-700 hover:text-blue-600 transition-colors font-medium"
             >
               Inicio
             </button>
             <button 
               onClick={() => scrollToSection('skills')}
-              className="text-gray-700 hover:text-blue-600 transition-colors"
+              className="text-gray-700 hover:text-blue-600 transition-colors font-medium"
             >
               Habilidades
             </button>
             <button 
               onClick={() => scrollToSection('projects')}
-              className="text-gray-700 hover:text-blue-600 transition-colors"
+              className="text-gray-700 hover:text-blue-600 transition-colors font-medium"
             >
               Proyectos
             </button>
             <button 
               onClick={() => scrollToSection('contact')}
-              className="text-gray-700 hover:text-blue-600 transition-colors"
+              className="text-gray-700 hover:text-blue-600 transition-colors font-medium"
             >
               Contacto
             </button>
