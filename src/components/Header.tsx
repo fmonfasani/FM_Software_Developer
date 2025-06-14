@@ -1,3 +1,4 @@
+
 import { Menu, X, Github, Linkedin, Mail } from 'lucide-react';
 import { useState } from 'react';
 
@@ -17,8 +18,8 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 flex items-center justify-center relative">
-              <div className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-emerald-400 font-bold text-lg">
+            <div className="w-10 h-10 flex items-center justify-center">
+              <div className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-emerald-400 font-bold text-2xl">
                 FM
               </div>
             </div>
