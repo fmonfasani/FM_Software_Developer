@@ -169,14 +169,16 @@ const Contact = () => {
           </div>
         </div>
         
-        {/* Footer */}
-        <div className="border-t border-gray-700 mt-16 pt-8 text-center">
-          <p className="text-gray-400">
-            © 2024 Federico Monfasani. Todos los derechos reservados.
-          </p>
-          <p className="text-gray-400 mt-2">
-            Desarrollado con ❤️ y mucho ☕
-          </p>
+        {/* Footer mejorado */}
+        <div className="border-t border-gray-600 mt-16 pt-8">
+          <div className="text-center space-y-3">
+            <p className="text-gray-300 font-medium">
+              © 2024 Federico Monfasani. Todos los derechos reservados.
+            </p>
+            <p className="text-[#00A69D] font-semibold text-lg flex items-center justify-center gap-2">
+              Desarrollado con <span className="text-red-400">❤️</span> y mucho <span className="text-yellow-400">☕</span>
+            </p>
+          </div>
         </div>
       </div>
     </section>
