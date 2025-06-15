@@ -121,7 +121,7 @@ const Contact = () => {
                   value={formData.name}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-white placeholder-gray-400"
+                  className="w-full px-4 py-3 bg-gray-100 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-900 placeholder-gray-500"
                   placeholder="Tu nombre"
                 />
               </div>
@@ -137,7 +137,7 @@ const Contact = () => {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-white placeholder-gray-400"
+                  className="w-full px-4 py-3 bg-gray-100 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-900 placeholder-gray-500"
                   placeholder="tu@email.com"
                 />
               </div>
@@ -153,7 +153,7 @@ const Contact = () => {
                   onChange={handleChange}
                   required
                   rows={5}
-                  className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-white placeholder-gray-400 resize-none"
+                  className="w-full px-4 py-3 bg-gray-100 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-900 placeholder-gray-500 resize-none"
                   placeholder="Cuéntame sobre tu proyecto..."
                 />
               </div>
@@ -169,10 +169,10 @@ const Contact = () => {
           </div>
         </div>
         
-        {/* Footer mejorado */}
+        {/* Footer mejorado y alineado */}
         <div className="border-t border-gray-600 mt-16 pt-8">
-          <div className="text-center space-y-3">
-            <p className="text-gray-300 font-medium">
+          <div className="flex flex-col lg:flex-row items-center justify-between space-y-4 lg:space-y-0">
+            <p className="text-gray-300 font-medium text-center lg:text-left">
               © 2024 Federico Monfasani. Todos los derechos reservados.
             </p>
             <p className="text-[#00A69D] font-semibold text-lg flex items-center justify-center gap-2">
