@@ -15,7 +15,7 @@ const Hero = () => {
         <div className="flex flex-col md:flex-row items-center">
           {/* Logo FM */}
           <div className="mr-0 md:mr-8 mb-5 md:mb-0">
-            <span className="text-[4rem] md:text-[8rem] font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#00A69D] to-[#00A69D] leading-none whitespace-nowrap border-4 border-white rounded-lg px-4 py-2 backdrop-blur-sm bg-white/10">
+            <span className="text-[4rem] md:text-[8rem] font-bold text-[#00A69D] leading-none whitespace-nowrap">
               FM
             </span>
           </div>
