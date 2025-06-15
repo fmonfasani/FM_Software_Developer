@@ -42,13 +42,13 @@ const Skills = () => {
   ];
 
   return (
-    <section id="skills" className="py-20 bg-white">
+    <section id="skills" className="py-20 bg-[#121E2F]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
             Habilidades Técnicas
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             Tecnologías y herramientas que domino para crear soluciones digitales completas
           </p>
         </div>
@@ -59,12 +59,12 @@ const Skills = () => {
               key={category.title}
               className="group hover:scale-105 transition-all duration-300"
             >
-              <div className="bg-white rounded-xl shadow-lg hover:shadow-xl p-6 border border-gray-100">
+              <div className="bg-[#121E2F] rounded-xl shadow-lg hover:shadow-xl p-6 border border-gray-600">
                 <div className={`w-16 h-16 rounded-lg bg-gradient-to-r ${category.color} flex items-center justify-center text-white mb-4 group-hover:scale-110 transition-transform duration-300`}>
                   {category.icon}
                 </div>
                 
-                <h3 className="text-xl font-bold text-gray-900 mb-4">
+                <h3 className="text-xl font-bold text-white mb-4">
                   {category.title}
                 </h3>
                 
@@ -72,7 +72,7 @@ const Skills = () => {
                   {category.skills.map((skill) => (
                     <span 
                       key={skill}
-                      className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium hover:bg-gray-200 transition-colors"
+                      className="px-3 py-1 bg-gray-700 text-gray-200 rounded-full text-sm font-medium hover:bg-gray-600 transition-colors"
                     >
                       {skill}
                     </span>
