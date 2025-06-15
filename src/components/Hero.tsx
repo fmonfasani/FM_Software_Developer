@@ -1,4 +1,5 @@
-import { ArrowDown, Code, Coffee } from 'lucide-react';
+
+import { ArrowDown } from 'lucide-react';
 
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
@@ -9,58 +10,27 @@ const Hero = () => {
   };
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 pt-20 font-nunito">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <div className="animate-fade-in">
-          <div className="mb-8">
-            <div className="w-40 h-40 mx-auto mb-8 flex items-center justify-center relative">
-              <img 
-                src="/lovable-uploads/bdbb690f-cc4f-4ccf-96bb-50cdc7c9b63a.png" 
-                alt="Federico Monfasani Logo"
-                className="w-full h-full object-contain filter drop-shadow-2xl"
-              />
-            </div>
-          </div>
-          
-          <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 via-emerald-400 to-green-400">
-              FEDERICO MONFASANI
+    <section id="home" className="min-h-screen flex items-center justify-center bg-[#121E2F] pt-20 font-nunito overflow-hidden">
+      <div className="flex items-center justify-center max-w-[90%] px-5">
+        <div className="flex flex-col md:flex-row items-center">
+          {/* Logo FM */}
+          <div className="mr-0 md:mr-8 mb-5 md:mb-0">
+            <span className="text-[4rem] md:text-[8rem] font-bold text-[#00A69D] leading-none whitespace-nowrap">
+              FM
             </span>
-          </h1>
-          
-          <p className="text-xl md:text-2xl text-gray-300 mb-2 max-w-3xl mx-auto font-semibold tracking-wide">
-            SOFTWARE DEVELOPER
-          </p>
-          
-          <p className="text-lg text-gray-400 mb-12 max-w-3xl mx-auto font-light">
-            Desarrollador de Software Full Stack apasionado por crear soluciones digitales innovadoras
-            y experiencias de usuario excepcionales.
-          </p>
-          
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-            <button 
-              onClick={() => scrollToSection('projects')}
-              className="px-8 py-3 bg-gradient-to-r from-teal-500 to-emerald-500 text-white rounded-lg font-semibold hover:shadow-lg hover:shadow-teal-500/25 transform hover:scale-105 transition-all duration-300 hover:from-teal-400 hover:to-emerald-400"
-            >
-              Ver Proyectos
-            </button>
-            <button 
-              onClick={() => scrollToSection('contact')}
-              className="px-8 py-3 border-2 border-teal-400 text-teal-400 rounded-lg font-semibold hover:bg-teal-400 hover:text-slate-900 transition-all duration-300"
-            >
-              Contactar
-            </button>
           </div>
           
-          <div className="flex justify-center items-center space-x-8 text-gray-400">
-            <div className="flex items-center space-x-2 hover:text-teal-400 transition-colors">
-              <Coffee size={20} />
-              <span>Café lover</span>
-            </div>
-            <div className="flex items-center space-x-2 hover:text-teal-400 transition-colors">
-              <Code size={20} />
-              <span>Clean Code</span>
-            </div>
+          {/* Nombre y título */}
+          <div className="text-center md:text-left">
+            <p className="text-[1.5rem] md:text-[2.8rem] font-bold text-white margin-0 leading-tight">
+              FEDERICO
+            </p>
+            <p className="text-[1.5rem] md:text-[2.8rem] font-bold text-white margin-0 leading-tight">
+              MONFASANI
+            </p>
+            <p className="text-[0.9rem] md:text-[1.2rem] text-[#C0C0C0] mt-2 md:mt-3 tracking-[1px] md:tracking-[2px] uppercase">
+              SOFTWARE DEVELOPER
+            </p>
           </div>
         </div>
         
